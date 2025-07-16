@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pastel Drawing Pad</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="canvasContainer">
+    <h1 style="color: #ff8ba7; margin: 0;">🎀 Cute Drawing Pad</h1>
+    
+    <div class="controls">
+      <label for="colorPicker">Color:</label>
+      <input type="color" id="colorPicker" value="#ff69b4" />
+
+      <label for="lineWidth">Brush:</label>
+      <input type="range" id="lineWidth" min="1" max="30" value="5" />
+
+      <button id="eraserBtn">🧽 Eraser</button>
+      <select id="backgroundSelect">
+        <option value="dots">🌸 Dotted</option>
+        <option value="grid">📏 Grid</option>
+        <option value="none">❌ None</option>
+      </select>
+
+      <button id="clearBtn">🧼 Clear</button>
+      <button id="downloadBtn">💾 Save</button>
+    </div>
+
+    <canvas id="drawingCanvas"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
