@@ -1,7 +1,7 @@
- Pastel Drawing Pad 🎨
+**Pastel Drawing Pad** 🎨
 A responsive drawing pad made with HTML, CSS, and JavaScript — complete with background templates, eraser tool, download support, and mobile-friendly design. Perfect for creative doodling and sketching with pastel vibes! 💖
 
-✨ Features
+**✨ Features**
 🖌️ Freehand Drawing with adjustable brush size & color
 
 🧽 Eraser Tool to remove parts of your drawing without affecting the background
@@ -22,19 +22,19 @@ A responsive drawing pad made with HTML, CSS, and JavaScript — complete with b
 
 🌟 Clean code using plain JavaScript and Canvas API
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 HTML5 canvas
 
 Vanilla JavaScript
 
 CSS3 (pastel styling + responsive layout)
-How to Use
+**How to Use**
 Download or clone the repo:
 
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/pastel-drawing-pad.git
+git clone [https://github.com/Ayeshah666/Drawing-pad.git]
 Open index.html in your browser:
 
 pgsql
